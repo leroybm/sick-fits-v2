@@ -1,9 +1,11 @@
 import PropTypes from 'prop-types';
 
+import Header from './Header';
+
 export default function Page({ children }) {
   return (
     <main>
-      <h1>Header</h1>
+      <Header />
       {children}
     </main>
   );
